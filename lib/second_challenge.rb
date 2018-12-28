@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
+array_of_arrays = groceries.values
 
-  
+array_of_arrays.flatten
+
+
 
 end
