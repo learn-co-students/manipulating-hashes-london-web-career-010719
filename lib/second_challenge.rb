@@ -19,4 +19,5 @@ array.push("#{value}")
 end
 end
 
+array
 end
