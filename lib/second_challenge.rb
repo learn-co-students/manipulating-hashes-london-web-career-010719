@@ -12,6 +12,11 @@ def second_challenge
   end
   end
 
-  
+  array = []
+groceries.each do |key, value|
+value.each do |value|
+array.push("#{value}")
+end
+end
 
 end
