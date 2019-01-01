@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
-  #your code here
+contacts["Freddy Mercury"][:favorite_icecream_flavors].drop(1)
+contacts
 
 
   #remember to return your newly altered contacts hash!
