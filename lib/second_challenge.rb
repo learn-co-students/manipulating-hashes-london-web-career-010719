@@ -6,8 +6,14 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
-  
-
+  items_array = []
+  groceries.each do |whocares, data|
+    data.each do |value|
+      items_array.push("#{value}")
+    end
+  end
+  items_array
 end
+
+
+second_challenge()
